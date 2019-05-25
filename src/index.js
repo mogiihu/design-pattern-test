@@ -1,4 +1,5 @@
-import './car';
+// import './car';
+import './part';
 class Person {
     constructor(name, sex) {
         this.name = name;
