@@ -1,5 +1,7 @@
 // import './car';
-import './part';
+import './park';
+// import './singleModal';
+
 class Person {
     constructor(name, sex) {
         this.name = name;
