@@ -1,4 +1,7 @@
-import './car';
+// import './car';
+import './singleModel';
+import {obj} from './myCall';
+import './promise';
 class Person {
     constructor(name, sex) {
         this.name = name;
@@ -45,4 +48,5 @@ window.$ = function(selector) {
 
 const $h1 = $('h1');
 // console.log($h1)
-
+obj.getNum();
+obj.getNumLater();
